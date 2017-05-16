@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.2.1\nBuild version 8C1002",
+  "commitish" : "3.1.0",
+  "iOS" : [
+    {
+      "hash" : "99c2e3b6a9f813828d0e7687b2145bf6719e648113ea5ed9806238fa4044aa01",
+      "name" : "AFNetworking"
+    }
+  ]
+}

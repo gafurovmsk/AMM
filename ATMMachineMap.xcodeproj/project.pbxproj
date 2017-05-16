@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1894AA4F1EC4DD2C0043F6CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA4E1EC4DD2C0043F6CD /* main.m */; };
+		1894AA521EC4DD2C0043F6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA511EC4DD2C0043F6CD /* AppDelegate.m */; };
+		1894AA551EC4DD2C0043F6CD /* AMMListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA541EC4DD2C0043F6CD /* AMMListTableController.m */; };
+		1894AA5A1EC4DD2C0043F6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894AA591EC4DD2C0043F6CD /* Assets.xcassets */; };
+		1894AA5D1EC4DD2C0043F6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894AA5B1EC4DD2C0043F6CD /* LaunchScreen.storyboard */; };
+		1894AA661ECB05800043F6CD /* AMMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA651ECB05800043F6CD /* AMMTabBarController.m */; };
+		1894AA691ECB0AC20043F6CD /* AMMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA681ECB0AC20043F6CD /* AMMMapViewController.m */; };
+		1894AA6D1ECB12020043F6CD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894AA6B1ECB12020043F6CD /* AFNetworking.framework */; };
+		1894AA6E1ECB12020043F6CD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1894AA6B1ECB12020043F6CD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1894AA6F1ECB12030043F6CD /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894AA6C1ECB12020043F6CD /* Masonry.framework */; };
+		1894AA701ECB12030043F6CD /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1894AA6C1ECB12020043F6CD /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1894AA751ECB27500043F6CD /* ATMMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA741ECB27500043F6CD /* ATMMachine.m */; };
+		1894AA791ECB431C0043F6CD /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AA781ECB431C0043F6CD /* APIManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1894AA711ECB12030043F6CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1894AA701ECB12030043F6CD /* Masonry.framework in Embed Frameworks */,
+				1894AA6E1ECB12020043F6CD /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1894AA4A1EC4DD2C0043F6CD /* ATMMachineMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMMachineMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1894AA4E1EC4DD2C0043F6CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1894AA501EC4DD2C0043F6CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1894AA511EC4DD2C0043F6CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1894AA531EC4DD2C0043F6CD /* AMMListTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMMListTableController.h; sourceTree = "<group>"; };
+		1894AA541EC4DD2C0043F6CD /* AMMListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMMListTableController.m; sourceTree = "<group>"; };
+		1894AA591EC4DD2C0043F6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1894AA5C1EC4DD2C0043F6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1894AA5E1EC4DD2D0043F6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1894AA641ECB05800043F6CD /* AMMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMTabBarController.h; sourceTree = "<group>"; };
+		1894AA651ECB05800043F6CD /* AMMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMTabBarController.m; sourceTree = "<group>"; };
+		1894AA671ECB0AC20043F6CD /* AMMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMMapViewController.h; sourceTree = "<group>"; };
+		1894AA681ECB0AC20043F6CD /* AMMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMMapViewController.m; sourceTree = "<group>"; };
+		1894AA6B1ECB12020043F6CD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		1894AA6C1ECB12020043F6CD /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		1894AA731ECB27500043F6CD /* ATMMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMMachine.h; sourceTree = "<group>"; };
+		1894AA741ECB27500043F6CD /* ATMMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMMachine.m; sourceTree = "<group>"; };
+		1894AA771ECB431C0043F6CD /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		1894AA781ECB431C0043F6CD /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1894AA471EC4DD2C0043F6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894AA6F1ECB12030043F6CD /* Masonry.framework in Frameworks */,
+				1894AA6D1ECB12020043F6CD /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1894AA411EC4DD2C0043F6CD = {
+			isa = PBXGroup;
+			children = (
+				1894AA4C1EC4DD2C0043F6CD /* ATMMachineMap */,
+				1894AA4B1EC4DD2C0043F6CD /* Products */,
+				1894AA6C1ECB12020043F6CD /* Masonry.framework */,
+				1894AA6B1ECB12020043F6CD /* AFNetworking.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1894AA4B1EC4DD2C0043F6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1894AA4A1EC4DD2C0043F6CD /* ATMMachineMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1894AA4C1EC4DD2C0043F6CD /* ATMMachineMap */ = {
+			isa = PBXGroup;
+			children = (
+				1894AA501EC4DD2C0043F6CD /* AppDelegate.h */,
+				1894AA511EC4DD2C0043F6CD /* AppDelegate.m */,
+				1894AA761ECB27570043F6CD /* Model */,
+				1894AA6A1ECB0AC80043F6CD /* Controllers */,
+				1894AA591EC4DD2C0043F6CD /* Assets.xcassets */,
+				1894AA4D1EC4DD2C0043F6CD /* Supporting Files */,
+			);
+			path = ATMMachineMap;
+			sourceTree = "<group>";
+		};
+		1894AA4D1EC4DD2C0043F6CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1894AA5B1EC4DD2C0043F6CD /* LaunchScreen.storyboard */,
+				1894AA5E1EC4DD2D0043F6CD /* Info.plist */,
+				1894AA4E1EC4DD2C0043F6CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1894AA6A1ECB0AC80043F6CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1894AA641ECB05800043F6CD /* AMMTabBarController.h */,
+				1894AA651ECB05800043F6CD /* AMMTabBarController.m */,
+				1894AA671ECB0AC20043F6CD /* AMMMapViewController.h */,
+				1894AA681ECB0AC20043F6CD /* AMMMapViewController.m */,
+				1894AA531EC4DD2C0043F6CD /* AMMListTableController.h */,
+				1894AA541EC4DD2C0043F6CD /* AMMListTableController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1894AA761ECB27570043F6CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1894AA731ECB27500043F6CD /* ATMMachine.h */,
+				1894AA741ECB27500043F6CD /* ATMMachine.m */,
+				1894AA771ECB431C0043F6CD /* APIManager.h */,
+				1894AA781ECB431C0043F6CD /* APIManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1894AA491EC4DD2C0043F6CD /* ATMMachineMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1894AA611EC4DD2D0043F6CD /* Build configuration list for PBXNativeTarget "ATMMachineMap" */;
+			buildPhases = (
+				1894AA461EC4DD2C0043F6CD /* Sources */,
+				1894AA471EC4DD2C0043F6CD /* Frameworks */,
+				1894AA481EC4DD2C0043F6CD /* Resources */,
+				1894AA711ECB12030043F6CD /* Embed Frameworks */,
+				1894AA721ECB120D0043F6CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATMMachineMap;
+			productName = ATMMachineMap;
+			productReference = 1894AA4A1EC4DD2C0043F6CD /* ATMMachineMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1894AA421EC4DD2C0043F6CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gafurov;
+				TargetAttributes = {
+					1894AA491EC4DD2C0043F6CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFP24RKUDP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1894AA451EC4DD2C0043F6CD /* Build configuration list for PBXProject "ATMMachineMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1894AA411EC4DD2C0043F6CD;
+			productRefGroup = 1894AA4B1EC4DD2C0043F6CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1894AA491EC4DD2C0043F6CD /* ATMMachineMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1894AA481EC4DD2C0043F6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894AA5D1EC4DD2C0043F6CD /* LaunchScreen.storyboard in Resources */,
+				1894AA5A1EC4DD2C0043F6CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1894AA721ECB120D0043F6CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Masonry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1894AA461EC4DD2C0043F6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894AA691ECB0AC20043F6CD /* AMMMapViewController.m in Sources */,
+				1894AA551EC4DD2C0043F6CD /* AMMListTableController.m in Sources */,
+				1894AA751ECB27500043F6CD /* ATMMachine.m in Sources */,
+				1894AA521EC4DD2C0043F6CD /* AppDelegate.m in Sources */,
+				1894AA791ECB431C0043F6CD /* APIManager.m in Sources */,
+				1894AA4F1EC4DD2C0043F6CD /* main.m in Sources */,
+				1894AA661ECB05800043F6CD /* AMMTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1894AA5B1EC4DD2C0043F6CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894AA5C1EC4DD2C0043F6CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1894AA5F1EC4DD2D0043F6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1894AA601EC4DD2D0043F6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1894AA621EC4DD2D0043F6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFP24RKUDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ATMMachineMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gafurov.id.ATMMachineMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1894AA631EC4DD2D0043F6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFP24RKUDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ATMMachineMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gafurov.id.ATMMachineMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1894AA451EC4DD2C0043F6CD /* Build configuration list for PBXProject "ATMMachineMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894AA5F1EC4DD2D0043F6CD /* Debug */,
+				1894AA601EC4DD2D0043F6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1894AA611EC4DD2D0043F6CD /* Build configuration list for PBXNativeTarget "ATMMachineMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894AA621EC4DD2D0043F6CD /* Debug */,
+				1894AA631EC4DD2D0043F6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1894AA421EC4DD2C0043F6CD /* Project object */;
+}
