@@ -20,14 +20,14 @@
 
 @implementation APIManager
 
--(NSArray<ATMMachine *> *)shareListOfATMMachines{
-  
-  
-  
-  
-  
-  
-}
+//-(NSArray<ATMMachine *> *)shareListOfATMMachines{
+//  
+//  
+//  
+//  
+//  
+//  
+//}
 
 
 
