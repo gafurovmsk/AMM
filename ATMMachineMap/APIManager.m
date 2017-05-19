@@ -23,12 +23,21 @@ const NSString * baseURLString = @"htpps://maps.googleapis.com/maps/api/place/ne
 @implementation APIManager
 
 //-(NSArray<ATMMachine *> *)shareListOfATMMachines{
+<<<<<<< HEAD
   
   
   
   
   
   
+=======
+//  
+//  
+//  
+//  
+//  
+//  
+>>>>>>> d45e017f7c08b321a3104f36d6b643a472598e1f
 //}
 
 
