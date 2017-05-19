@@ -11,9 +11,9 @@
 
 @interface ATMMachine () <MKAnnotation>
 
-@property (nonatomic,strong) NSString * title;
+@property (nonatomic, copy, nullable) NSString *title;
+@property (nonatomic, copy, nullable) NSString *subtitle; // location
 @property (nonatomic,strong) NSString * bank;
-@property (nonatomic,strong) NSString * location;
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 
 @end
@@ -26,7 +26,7 @@
   if (!self) return nil;
   
   _title = title;
-  _location = location;
+  _subtitle = location;
   _bank = bank;
   _coordinate = coords;
   return self;

@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [GMSPlacesClient provideAPIKey:@"AIzaSyDwMeC52E9moLtbtoj8bpC0sLzmlSn1bL8"];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyB7lNwiN2oLUrzPvf62ZuWbif3_kUM3Mbo"];
     //  window and controllers
     UIWindow *window = [UIWindow new];
     UITabBarController *tabBar = [AMMTabBarController new];
@@ -45,10 +45,6 @@
     [window setRootViewController:tabBar];
     [window makeKeyAndVisible];
     self.window = window;
-    
-    
-    
-    
     
     return YES;
 }

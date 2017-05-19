@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@import MapKit;
 @class ATMMachine;
+
 @interface APIManager : NSObject
 
--(NSArray<ATMMachine*>*)shareListOfATMMachines;
+-(NSArray<ATMMachine *> *)shareListOfATMMachines:(CLLocation*)location andRadius:(double) radius;
+
+
 
 @end
