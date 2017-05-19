@@ -11,23 +11,25 @@
 @import AFNetworking;
 
 
+const NSString * baseURLString = @"htpps://maps.googleapis.com/maps/api/place/nearbysearch/json?type=atm&";
 
 @interface APIManager ()
 
 @property (nonatomic,strong) NSArray<ATMMachine*>* atmMachineList;
+@property (nonatomic,strong) NSString *baseURLString;
 
 @end
 
 @implementation APIManager
 
--(NSArray<ATMMachine *> *)shareListOfATMMachines{
+//-(NSArray<ATMMachine *> *)shareListOfATMMachines{
   
   
   
   
   
   
-}
+//}
 
 
 
