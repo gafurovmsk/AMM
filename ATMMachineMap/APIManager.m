@@ -11,9 +11,7 @@
 @import AFNetworking;
 
 
-const NSString * baseURLString = @"https://maps.googleapis.com/maps/api/place/nearbysearch/json?type=atm&key=AIzaSyB7lNwiN2oLUrzPvf62ZuWbif3_kUM3Mbo";
-
-
+NSString * baseURLString = @"https://maps.googleapis.com/maps/api/place/nearbysearch/json?type=atm&key=AIzaSyB7lNwiN2oLUrzPvf62ZuWbif3_kUM3Mbo";
 
 
 @interface APIManager ()
